@@ -4,9 +4,6 @@ import Link from 'next/link';
 const Partners = () => {
   return (
     <div className='flex flex-col md:flex-row justify-center items-center gap-8'>
-      <div className="text-center font-bold opacity-80">
-        IN COLLABORATION WITH:
-      </div>
       <Link
         href="https://tapped.ai"
         target="_blank"
