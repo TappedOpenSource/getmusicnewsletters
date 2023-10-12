@@ -76,7 +76,7 @@ export default function Home() {
           <Link
             href={paymentLink}
             className="bg-white text-black font-bold text-xl rounded-full px-4 py-2 hover:scale-105 transform transition-all duration-200 ease-in-out"
-          >start now</Link>
+          >sign up</Link>
         </div>
         <h2 className="text-lg md:text-2xl md:w-1/3 font-light my-2 text-center">
             to access our full <a href="https://tapped.ai" className="underline hover:text-[#63b2fd]">suite</a>
