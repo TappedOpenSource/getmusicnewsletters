@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Partners from '@/components/partners';
 import { useEffect, useState } from 'react';
+import Nav from '@/components/Nav';
 
 const paymentLink = process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK ?? '';
 
@@ -63,6 +64,7 @@ export default function Home() {
       <div className="firstCircle md:block"></div>
       <div className="secondCircle md:block"></div>
       <div className="thirdCircle hidden md:block"></div>
+      <Nav />
       <div className="flex-grow flex flex-col justify-center items-center">
         <h1 className="text-4xl md:text-5xl md:w-3/4 my-2 font-extrabold text-white text-center">
             get music marketing <span className="text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">{word}</span>
