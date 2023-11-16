@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import Partners from '@/components/partners';
 import { useEffect, useState } from 'react';
+import Partners from '@/components/partners';
 import Nav from '@/components/Nav';
 
 const paymentLink = process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK ?? '';
